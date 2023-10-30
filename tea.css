@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: black;*/
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color:#E3E6F3;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    
+}
+#navbar li a{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 900;
+    color:black;
+    transition: 0.5s ease;
+}
+#navbar li a:hover{
+    color:crimson;
+}
+.box{
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+   
+}
+.box .text{
+    position: absolute;
+        left: 0;
+        right: 0;
+        top: 10%; /* Adjust this value to move the positioned div up and down */
+    background-color: black;
+    padding: 30px;
+    opacity: 0.5;
+}
+ .text h4{
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    color: beige;
+ }
+ .text h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: beige;
+ }
+ #sales{
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    
+ }
+ #sales h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: beige;
+    text-align: center;
+    padding-top: 20px;
+    
+ }
+ #sales h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: beige;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ #sales p{
+    font-size: 20px;
+    font-weight: 600;
+    color: beige;
+ }
+    
+ h5{
+    font-size: 20px;
+    color:beige;
+    padding: 10px;
+ }
+ #sales .pro{
+    display: flex;
+    
+    padding-top: 20px;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 10px 50px; 
+    padding: 5px 4px;
+    
+ }
+
+#location{
+  
+    background-image: url(img/img-locations-background.webp);
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:  90% 100%;
+    background-position: center;
+    text-align: center;
+    opacity: 0.8;
+}
+.des .box-lacation{
+    border: 2px solid crimson;
+    width: 300px ;
+    padding:  10px 30px;
+    margin: 40px;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+
+}
+.box-lacation ,h3{
+    color: beige;
+    line-height: 2.7;
+    
+}
+#lacation,h2{
+    padding-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+footer{
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    opacity: 0.8;
+   
+}
+h1,h4{
+    color:beige; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px ;
+    padding-top: 20px;
+}
+
+ 
+footer p{
+    color: beige;
+    text-align: left;
+    padding-left: 20px;
+}
+
+@media (max-width: 799px){
+    .des .box-lacation{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px ;
+    padding: 5px;
+        margin: 5px;
+    margin-left: 100px;
+    }
+    .box-lacation ,h3{
+        font-size: 15px;
+        color: beige;
+        line-height: normal;
+        
+    }
+}
+
+ /*#sales .box-image{
+    display:inline-flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+ }*/
+  
+
